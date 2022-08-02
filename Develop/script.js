@@ -73,6 +73,12 @@ function generatePassword() {
    randomPassword = randomPassword + randomChar
   }
 
+//Need an if statement that won't allow user to not select any criteria. If nothing is added to the main array, reset the function.
+  if (0 >= characterCriterias) {
+    window.alert("You must select at least one password character criteria!");
+    return generatePassword ()
+  }
+
   console.log(characterCriterias)
   console.log(randomPassword)
 
