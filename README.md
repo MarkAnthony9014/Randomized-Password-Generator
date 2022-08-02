@@ -21,5 +21,5 @@
  - Make sure the user selects at least one password criteria. 
  - Make sure all the user input is returned and generate a password based on selected criteria. 
 
-### Link to GitHub Deployed Application
-[GitHubDeployedApplication]
+## Link to GitHub Deployed Application
+[GitHubDeployedApplication](https://markanthony9014.github.io/password-generator-javascript/)
